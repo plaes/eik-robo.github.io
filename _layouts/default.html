@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title_prefix }} - {{ page.title }}</title>
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
+    <meta name="author" content="{{ page.author }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/ico/favicon.png" />
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="{{ site.baseurl }}/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#navbar li").each(function(index, item) {
+                var link = $("a", item);
+                if (window.location.pathname == $(link).attr("href")) {
+                    $(item).addClass("active");
+                }
+            });
+        });
+    </script>
+    {% if page.feed == 'rss' %}
+    <link rel="alternate" type="application/rss+xml" title="{{ page.title_prefix }} RSS feed" href="{{ site.baseurl }}/feed/rss/">
+    {% elsif page.feed == 'atom' %}
+    <link rel="alternate" type="application/atom+xml" title="{{ page.title_prefix }} Atom feed" href="{{ site.baseurl }}/feed/atom/" />
+    {% endif %}
+</head>
+<body id="pagetop">
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <div style="margin: 1em 0 1em;">
+            {% include svg/logo2-english.svg %}
+            </div>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Men&uuml;&uuml;</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+        </div>
+        
+        <div id="navbar" class="collapse navbar-collapse">
+            <div class="container">
+                <ul class="nav navbar-nav">
+                    <li><a href="{{ site.baseurl }}/sumorobot/">Sumorobot</a></li>
+                    <li><a href="{{ site.baseurl }}/members/">Members</a></li>
+
+                    <li><a href="http://github.com/eik-robo/" target="_blank">GitHub</a></li>
+                    <li><a href="{{ site.baseurl }}/webcam/">Webcam</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    {{ content }}
+
+    
+    <nav class="navbar navbar-default visible-xs navbar-header" style="margin-bottom:0">
+        <a class="navbar-toggle nav-link" href="#pagetop">
+            <i class="fa fa-arrow-up fa-lg"></i>
+        </a>
+        <a class="navbar-toggle nav-link" href="{{ site.baseurl }}/feed/">
+            <i class="fa fa-rss fa-lg"></i>
+        </a>
+    </nav>
+    <div style="padding: 3em 0; margin: 2em auto 0;" class="inverted">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <p>Contact</p>
+                    <ul>
+                        <li>E-post: <a href="mailto:robot@itcollege.ee">robot@itcollege.ee</a></li>
+                        <li>Telefon: <a href="tel:+3726285868">+372	628 5868</a></li>
+                        <li>Registrikood: 80397632</li>
+                        <li>IBAN: -</li>
+                    </ul>
+                </div>
+                <div class="col-md-9">
+                    <p style="float:right; text-align: right;">
+                        MTÜ IT Kolledži Robootikaklubi<br/>
+                        &copy; 2016
+                    </p>
+                </div>
+            </div>
+         </div>
+    </div>
+</body>
+</html>

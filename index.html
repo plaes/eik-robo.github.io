@@ -1,0 +1,53 @@
+---
+layout: page
+title: News
+---
+{% for post in paginator.posts %}
+<article class="home">
+    <span class="post-date">
+    {% assign d = post.date | date: "%m" | plus:'0' %}
+    {{ post.date | date: "%d" }}.
+    {% include ee_date.html %}
+    {{ post.date | date: "%Y" }}
+    </span>
+
+    <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} &rsaquo;</a></h2>
+
+    <div class="article_body">
+    {% if post.summary %}
+        {{ post.summary }}
+    {% else %}
+        {{ post.content | strip_html | truncate: page.summary_length }}<br />
+    {% endif %}
+    </div>
+</article>
+{% endfor %}
+<hr/>
+
+<ul class="pager"> 
+    {% if paginator.previous_page %}
+    <li class="previous">
+        {% if paginator.previous_page == 1 %}
+        <a href="{{ '/news/' | prepend: site.baseurl }}">&larr;<span class="hidden-xs"> Uuemad</span></a>
+        {% else %}
+        <a href="{{ site.paginate_path | replace: ':num', paginator.previous_page  | prepend: '/' | prepend: site.baseurl }}">&larr;<span class="hidden-xs"> Uuemad</span></a>
+        {% endif %}
+    </li>
+    {% else %}
+    <li class="previous disabled">
+        <a>&larr;<span class="hidden-xs"> Newer</span></a>
+    </li>
+    {% endif %}
+    <li>
+        <span class="page_number"><span class="hidden-xs">Page: </span>{{ paginator.page }}/{{ paginator.total_pages }}</span>
+    </li>
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ site.paginate_path | replace: ':num', paginator.next_page  | prepend: '/' | prepend: site.baseurl }}"><span class="hidden-xs">Vanemad </span>&rarr;</a>
+    </li>
+    {% else %}
+    <li class="next disabled">
+        <a><span class="hidden-xs">Older </span>&rarr;</a>
+    </li>
+    {% endif %}
+</ul>
