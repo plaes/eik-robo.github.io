@@ -2,7 +2,7 @@
 title: "Members"
 layout: page
 ---
-<p><a href="https://github.com/eik-robo/eik-robo.github.io">Fork on GitHub to add your name!</a></p>
+<p><a href="https://github.com/eik-robo/eik-robo.github.io/blob/master/members/index.md">Fork on GitHub to add your name!</a></p>
 
 <p><b>Instructors</b></p>
 <figure>
@@ -302,7 +302,7 @@ layout: page
   <figcaption>Erkki Lindepuu</figcaption>
 </figure>
 <figure>
-  <img src="../assets/img/ivo_l.jpg" alt="pic"/>
+  <img src="../assets/img/ivo.jpg" alt="pic"/>
   <figcaption>Ivo Lõhmus</figcaption>
 </figure>
 <figure>
