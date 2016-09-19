@@ -20,7 +20,7 @@ lsi:            false
 limit_posts:    0
 future:         true
 markdown:       kramdown
-highlighter:    pygments
+highlighter:    rouge
 
 # Serving.
 #detach:     false

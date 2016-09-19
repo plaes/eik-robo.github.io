@@ -223,7 +223,7 @@ layout: page
 </figure>
 <figure>
   <img src="../assets/img/boris.jpg" alt="pic"/>
-  <figcaption>Boris Marõðev</figcaption>
+  <figcaption>Boris Marõšev</figcaption>
 </figure>
 <figure>
   <img src="../assets/img/stormtrooper.jpg" alt="pic"/>
