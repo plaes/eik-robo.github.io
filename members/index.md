@@ -18,7 +18,7 @@ layout: page
 
 <p><b>Members</b></p>
 <figure>
-  <img src="https://github.com/mohanad86/eik-robo.github.io/blob/master/assets/img/avatar/14925458.jpg" alt="pic"/>
+  <img src="../assets/img/avatar/14925458.jpg" alt="pic"/>
   <figcaption>Mohanad Aly</figcaption>
 </figure>
 <figure>
