@@ -196,7 +196,7 @@ layout: page
 </figure>
 <figure>
   <a href="http://github.com/artizirk/" target="_blank">
-    <img src="http://www.gravatar.com/avatar/8e86e57e6f41c0888468dd5c6eb1eb2a?=100" alt="pic"/>
+    <img src="http://www.gravatar.com/avatar/8e86e57e6f41c0888468dd5c6eb1eb2a?s=100" alt="pic"/>
   </a>
   <figcaption>Arti Zirk</figcaption>
 </figure>
