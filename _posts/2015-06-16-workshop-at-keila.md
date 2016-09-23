@@ -1,8 +1,8 @@
 ---
 title: "Sumorobotite töötuba Harjumaa Muuseumis"
 author: Lauri Võsandi <lauri.vosandi@gmail.com>
-categories: 
-tags: 
+categories:
+tags: sumorobot
 layout: post
 ---
 
