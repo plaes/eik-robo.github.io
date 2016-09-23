@@ -18,6 +18,10 @@ layout: page
 
 <p><b>Members</b></p>
 <figure>
+  <img src="../assets/img/avatar/14925458.jpg" alt="pic"/>
+  <figcaption>Mohanad Aly</figcaption>
+</figure>
+<figure>
   <img src="../assets/img/avatar/stormtrooper.jpg" alt="pic"/>
   <figcaption>Anastassia Drovnjasina</figcaption>
 </figure>
