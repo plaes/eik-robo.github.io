@@ -6,7 +6,9 @@ layout: page
 
 <p><b>Instructors</b></p>
 <figure>
-  <img src="http://secure.gravatar.com/userimage/12471255/e2c8707818ba553da317a257ceddef58?size=100" alt="pic"/><br />
+  <a href="http://github.com/laurivosandi/" target="_blank">
+    <img src="http://www.gravatar.com/avatar/6118ec6013235aa99bc39d6278d91018?s=100" alt="pic"/>
+  </a>
   <figcaption>Lauri Võsandi</figcaption>
 </figure>
 <figure>
@@ -17,7 +19,9 @@ layout: page
 
 <p><b>Members</b></p>
 <figure>
-  <img src="../assets/img/avatar/14925458.jpg" alt="pic"/>
+  <a href="https://github.com/mohanad86" target="_blank">
+    <img src="../assets/img/avatar/14925458.jpg" alt="pic"/>
+  </a>
   <figcaption>Mohanad Aly</figcaption>
 </figure>
 <figure>
@@ -181,7 +185,9 @@ layout: page
   <figcaption>Allan Vein</figcaption>
 </figure>
 <figure>
-  <img src="../assets/img/avatar/stormtrooper.jpg" alt="pic"/>
+  <a href="http://github.com/kveskime/" target="_blank">
+    <img src="../assets/img/avatar/stormtrooper.jpg" alt="pic"/>
+  </a>
   <figcaption>Karell Veskimeister</figcaption>
 </figure>
 <figure>
@@ -189,7 +195,9 @@ layout: page
   <figcaption>Andres Välman</figcaption>
 </figure>
 <figure>
-  <img src="../assets/img/avatar/stormtrooper.jpg" alt="pic"/>
+  <a href="http://github.com/artizirk/" target="_blank">
+    <img src="http://www.gravatar.com/avatar/8e86e57e6f41c0888468dd5c6eb1eb2a?=100" alt="pic"/>
+  </a>
   <figcaption>Arti Zirk</figcaption>
 </figure>
 <div style="clear: both;"></div>
@@ -197,7 +205,9 @@ layout: page
 
 <p><b>Alumni</b></p>
 <figure>
-  <img src="../assets/img/avatar/margus.jpg" alt="pic"/>
+  <a href="http://github.com/magavdraakon/" target="_blank">
+    <img src="../assets/img/avatar/margus.jpg" alt="pic"/>
+  </a>
   <figcaption>Margus Ernits (instructor)</figcaption>
 </figure>
 <figure>
