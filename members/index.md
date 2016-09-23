@@ -197,6 +197,10 @@ layout: page
   <figcaption>Allan Vein</figcaption>
 </figure>
 <figure>
+  <img src="../assets/img/avatar/stormtrooper.jpg" alt="pic"/>
+  <figcaption>Anto Veldre</figcaption>
+</figure>
+<figure>
   <a href="http://github.com/kveskime/" target="_blank">
     <img src="../assets/img/avatar/stormtrooper.jpg" alt="pic"/>
   </a>
