@@ -44,7 +44,7 @@ defaults:
       path: ""
     values:
       # Page title prefix.
-      title_prefix: Robo
+      title_prefix: Robotics Club of Estonian IT College
       # Page title.
       title: Robotics Club of Estonian IT College
       # Short description of the page.
