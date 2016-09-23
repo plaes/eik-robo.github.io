@@ -2,6 +2,7 @@
 layout: default
 ---
 <div class="container">
+    {% include page_header.html %}
     <article>
         <div class="col-sm-10">
             <div class="article_body">
@@ -70,11 +71,6 @@ layout: default
                     <a class="btn btn-default btn-sm gplus" onclick="window.open('https://plus.google.com/share?url='+window.location.href, 'google-plus-share', 'width=490,height=530');return false;">
                         <i class="fa fa-google-plus fa-lg"></i>
                     </a>
-                </section>
-                <section class="col-sm-6 author">
-                    <img src="http://www.gravatar.com/avatar/{{ page.email_md5sum }}" class="img-rounded author-image" />
-                    <h4 class="section-title author-name">{{ page.author }}</h4>
-                    <p class="author-bio">{{ page.slogan }}</p>
                 </section>
             </div>
 
