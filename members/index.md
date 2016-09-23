@@ -15,7 +15,6 @@ layout: page
 </figure>
 <div style="clear: both;"></div>
 
-
 <p><b>Members</b></p>
 <figure>
   <img src="../assets/img/avatar/14925458.jpg" alt="pic"/>
@@ -56,6 +55,14 @@ layout: page
 <figure>
   <img src="../assets/img/avatar/stormtrooper.jpg" alt="pic"/>
   <figcaption>Mihkel Künnapas</figcaption>
+</figure>
+<figure>
+  <img src="../assets/img/avatar/stormtrooper.jpg" alt="pic"/>
+  <figcaption>Priit Laes</figcaption>
+</figure>
+<figure>
+  <img src="../assets/img/avatar/stormtrooper.jpg" alt="pic"/>
+  <figcaption>Madis Lugus</figcaption>
 </figure>
 <figure>
   <img src="../assets/img/avatar/marian.jpg" alt="pic"/>
@@ -131,15 +138,15 @@ layout: page
 </figure>
 <figure>
   <img src="../assets/img/avatar/stormtrooper.jpg" alt="pic"/>
-  <figcaption>Tõnu Sein</figcaption>
-</figure>
-<figure>
-  <img src="../assets/img/avatar/stormtrooper.jpg" alt="pic"/>
   <figcaption>Ülle Tiitson</figcaption>
 </figure>
 <figure>
   <img src="../assets/img/avatar/stormtrooper.jpg" alt="pic"/>
   <figcaption>Aleksander Tavgen</figcaption>
+</figure>
+<figure>
+  <img src="../assets/img/avatar/stormtrooper.jpg" alt="pic"/>
+  <figcaption>Taavi Teearu</figcaption>
 </figure>
 <figure>
   <img src="../assets/img/avatar/stormtrooper.jpg" alt="pic"/>
@@ -175,7 +182,15 @@ layout: page
 </figure>
 <figure>
   <img src="../assets/img/avatar/stormtrooper.jpg" alt="pic"/>
+  <figcaption>Karell Veskimeister</figcaption>
+</figure>
+<figure>
+  <img src="../assets/img/avatar/stormtrooper.jpg" alt="pic"/>
   <figcaption>Andres Välman</figcaption>
+</figure>
+<figure>
+  <img src="../assets/img/avatar/stormtrooper.jpg" alt="pic"/>
+  <figcaption>Arti Zirk</figcaption>
 </figure>
 <div style="clear: both;"></div>
 
@@ -288,6 +303,10 @@ layout: page
 <figure>
   <img src="../assets/img/avatar/tiina.jpg" alt="pic"/>
   <figcaption>Tiina Laast</figcaption>
+</figure>
+<figure>
+  <img src="../assets/img/avatar/stormtrooper.jpg" alt="pic"/>
+  <figcaption>Tõnu Sein</figcaption>
 </figure>
 <figure>
   <img src="../assets/img/avatar/stormtrooper.jpg" alt="pic"/>
