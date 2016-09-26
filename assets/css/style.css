@@ -12,12 +12,12 @@ figure {
 @font-face {
     font-family: 'Quantico';
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     src: url('/assets/fonts/quantico.woff') format('woff');
 }
 
 body, p, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Quantico';
+    font-family: 'Quantico', sans-serif;
 }
 
 body {
