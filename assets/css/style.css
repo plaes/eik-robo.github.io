@@ -88,3 +88,7 @@ table td, table th {
     padding: 4px;
     border: 1px solid #888;
 }
+
+section {
+    clear: both;
+}

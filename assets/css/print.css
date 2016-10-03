@@ -1,0 +1,23 @@
+img {
+    display: none;
+}
+
+figure {
+    text-align: left;
+    float: none;
+    height: auto;
+    display: block;
+    width: auto;
+}
+
+h1, h2, #forkme, #alumni, #credentials, .page-header {
+    display: none;
+}
+
+figure {
+    font-size: 10pt;
+}
+
+a[href]:after {
+  content: none;
+}
