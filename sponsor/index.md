@@ -23,12 +23,15 @@ You can also offer shelves and other stuff that might come handy for stuff that 
 
 ## Academic year 2016/2017
 
-Our sponsors for this year are <a href="http://www.helmes.ee/">Helmes</a> and <a href="http://www.proekspert.ee/">Proekspert</a>.
+Our sponsors for this year are <a href="http://www.helmes.ee/">Helmes</a>, <a href="http://www.proekspert.ee/">Proekspert</a>
+and <a href="http://icefire.ee/">Icefire</a>.
 As usual Estonian IT College is providing us rooms 412/413 in the building at Raja 4c.
 
 {% include svg/proekspert.svg %}
 <br/>
 {% include svg/helmes.svg %}
+<br/>
+{% include svg/icefire.svg %}
 
 
 ## Academic year 2013/2014
