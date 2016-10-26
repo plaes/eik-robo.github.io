@@ -22,11 +22,14 @@ widely used industrial cameras.
 
 For driving the DC motors we use our homemade H-bridges which this year
 have been adapted to be used as [Arduino shields](https://github.com/eik-robo/bridgeino).
+Thanks to Frank, Madis, Krista, Nika and others who bothered to show up for the soldering workshops
+and actually managed to solder pretty descent H-bridges :)
+
+<img src="https://raw.githubusercontent.com/eik-robo/bridgeino/master/doc/top.png" style="max-width:100%;max-height:100%; display:block;"/>
+
 For the kicker electronics we use old-school Nixie power supplies, capacitor and
 Arduino relay board. Kicker's mechanics is the most esoteric piece of hardware,
 we're just going to stick to the ones made previously.
-
-<img src="https://raw.githubusercontent.com/eik-robo/bridgeino/master/doc/top.png" style="max-width:100%;max-height:100%; display:block;"/>
 
 Batteries have been replaced with LiFePO4 packs to prevent hazardous fires
 and 4 cells incidently fit our i5 motherboards so we don't need step-up or step-down converter for the motherboard.
